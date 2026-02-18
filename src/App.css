@@ -105,6 +105,24 @@ body {
   margin-top: 3rem;
 }
 
+.footer-author {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.35rem;
+}
+
+.footer-linkedin {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-light);
+  transition: color 0.15s;
+}
+
+.footer-linkedin:hover {
+  color: #0a66c2;
+}
+
 /* ── Cards ──────────────────────────────────────────────────────────────── */
 
 .card {
